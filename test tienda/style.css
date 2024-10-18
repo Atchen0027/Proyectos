@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.articulo {
+  width: 300px;
+  aspect-ratio: 1/1;
+  position: relative;
+  overflow: hidden;
+  /* border: 2px solid red; */
+}
+.articulo img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.articulo .nombre {
+  z-index: 1;
+  color: white;
+  font-size: 2em;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  text-align: center;
+}
+.articulo .precio {
+  z-index: 1;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  width: 200px;
+  height: 150px;
+  background-color: rgba(255, 0, 0, 0.7);
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  bottom: -70px;
+  right: -90px;
+  transform: rotate(-45deg);
+}
+
+.articulo > * {
+  position: relative;
+}
+.tarjeta {
+  width: 300px;
+  height: 500px;
+
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+  box-shadow: 0px 0px 13px 10px rgba(0, 0, 0, 0.15);
+}
+.descrip {
+  padding: 15px;
+}
+.tarjeta:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
