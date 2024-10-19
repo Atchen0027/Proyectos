@@ -1,0 +1,11 @@
+{
+  "name": "tienda_catalogo",
+  "version": "1.0.0",
+  "description": "Catalogo online de una  tienda de artesania",
+  "main": "y",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Atchen Valladares",
+  "license": "MIT"
+}

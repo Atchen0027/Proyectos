@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/vendors/_vendors.scss","../sass/base/_reset.scss","../sass/themes/_default.scss","../sass/abstracts/_variables.scss","../sass/app.scss"],"names":[],"mappings":"AACQ;ACDR;EACE;EACA;EACA;;;ACHF;EACI,aCDU;;;ADId;EACI;;;AEIJ;EACI,kBDTW;ECUX,ODTQ;ECUR,WDTO","file":"style.css"}

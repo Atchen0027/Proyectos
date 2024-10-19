@@ -1,0 +1,155 @@
+{
+  "productos": [
+    {
+      "nombre": "Caja mágica de Navidad",
+      "descripcion": "Una caja decorativa con luces LED ideal para la temporada navideña.",
+      "precio": "15€",
+      "foto": "https://picsum.photos/300/301"
+    },
+    {
+      "nombre": "Llavero personalizado con nombre",
+      "descripcion": "Llavero de madera con grabado personalizado de nombres.",
+      "precio": "5€",
+      "foto": "https://picsum.photos/300/302"
+    },
+    {
+      "nombre": "Taza de café con diseño",
+      "descripcion": "Taza de cerámica con un diseño único de paisajes.",
+      "precio": "12€",
+      "foto": "https://picsum.photos/300/303"
+    },
+    {
+      "nombre": "Velas aromáticas de lavanda",
+      "descripcion": "Set de velas aromáticas hechas a mano con fragancia de lavanda.",
+      "precio": "20€",
+      "foto": "https://picsum.photos/300/304"
+    },
+    {
+      "nombre": "Almohada ergonómica",
+      "descripcion": "Almohada con diseño ergonómico para un mejor descanso.",
+      "precio": "25€",
+      "foto": "https://picsum.photos/300/305"
+    },
+    {
+      "nombre": "Estuche para gafas",
+      "descripcion": "Estuche de cuero para guardar gafas de manera segura.",
+      "precio": "8€",
+      "foto": "https://picsum.photos/300/306"
+    },
+    {
+      "nombre": "Reloj de pulsera minimalista",
+      "descripcion": "Reloj de pulsera con diseño minimalista y correa de cuero.",
+      "precio": "50€",
+      "foto": "https://picsum.photos/300/307"
+    },
+    {
+      "nombre": "Portavelas de madera",
+      "descripcion": "Portavelas rústico hecho a mano con madera reciclada.",
+      "precio": "18€",
+      "foto": "https://picsum.photos/300/308"
+    },
+    {
+      "nombre": "Bolígrafo metálico premium",
+      "descripcion": "Bolígrafo metálico con tinta de secado rápido y grabado personalizado.",
+      "precio": "7€",
+      "foto": "https://picsum.photos/300/309"
+    },
+    {
+      "nombre": "Cuadro abstracto pequeño",
+      "descripcion": "Pequeño cuadro decorativo con arte abstracto moderno.",
+      "precio": "30€",
+      "foto": "https://picsum.photos/300/310"
+    },
+    {
+      "nombre": "Manta térmica",
+      "descripcion": "Manta de microfibra con tecnología térmica para invierno.",
+      "precio": "40€",
+      "foto": "https://picsum.photos/300/311"
+    },
+    {
+      "nombre": "Altavoz portátil Bluetooth",
+      "descripcion": "Altavoz compacto con sonido envolvente y conexión Bluetooth.",
+      "precio": "35€",
+      "foto": "https://picsum.photos/300/312"
+    },
+    {
+      "nombre": "Camiseta con estampado divertido",
+      "descripcion": "Camiseta de algodón con un estampado gráfico original y divertido.",
+      "precio": "18€",
+      "foto": "https://picsum.photos/300/313"
+    },
+    {
+      "nombre": "Diario de cuero vintage",
+      "descripcion": "Diario de tapa dura con cubierta de cuero y hojas recicladas.",
+      "precio": "22€",
+      "foto": "https://picsum.photos/300/314"
+    },
+    {
+      "nombre": "Juego de té de cerámica",
+      "descripcion": "Juego de tazas y tetera de cerámica pintadas a mano.",
+      "precio": "45€",
+      "foto": "https://picsum.photos/300/315"
+    },
+    {
+      "nombre": "Colgante de plata con inicial",
+      "descripcion": "Colgante de plata personalizado con la inicial de tu nombre.",
+      "precio": "28€",
+      "foto": "https://picsum.photos/300/316"
+    },
+    {
+      "nombre": "Puzzle 1000 piezas",
+      "descripcion": "Puzzle con imagen de paisaje, ideal para los amantes de los rompecabezas.",
+      "precio": "10€",
+      "foto": "https://picsum.photos/300/317"
+    },
+    {
+      "nombre": "Set de cuchillos de cocina",
+      "descripcion": "Set de cuchillos de acero inoxidable para chefs aficionados.",
+      "precio": "60€",
+      "foto": "https://picsum.photos/300/318"
+    },
+    {
+      "nombre": "Botella de agua reutilizable",
+      "descripcion": "Botella de acero inoxidable, ideal para mantener el agua fría o caliente.",
+      "precio": "15€",
+      "foto": "https://picsum.photos/300/319"
+    },
+    {
+      "nombre": "Mochila resistente al agua",
+      "descripcion": "Mochila unisex con compartimentos amplios y resistente al agua.",
+      "precio": "35€",
+      "foto": "https://picsum.photos/300/320"
+    },
+    {
+      "nombre": "Lámpara de escritorio LED",
+      "descripcion": "Lámpara ajustable con luz LED y control de intensidad.",
+      "precio": "25€",
+      "foto": "https://picsum.photos/300/321"
+    },
+    {
+      "nombre": "Auriculares inalámbricos",
+      "descripcion": "Auriculares Bluetooth con micrófono y cancelación de ruido.",
+      "precio": "55€",
+      "foto": "https://picsum.photos/300/322"
+    },
+    {
+      "nombre": "Sombrero de lana",
+      "descripcion": "Sombrero de lana hecho a mano, ideal para el invierno.",
+      "precio": "20€",
+      "foto": "https://picsum.photos/300/323"
+    },
+    {
+      "nombre": "Poster de película clásica",
+      "descripcion": "Poster impreso de alta calidad con temática de película clásica.",
+      "precio": "10€",
+      "foto": "https://picsum.photos/300/324"
+    },
+    {
+      "nombre": "Juego de posavasos de madera",
+      "descripcion": "Set de 6 posavasos de madera con grabados decorativos.",
+      "precio": "12€",
+      "foto": "https://picsum.photos/300/325"
+    }
+  ]
+}
+
