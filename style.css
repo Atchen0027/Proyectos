@@ -7,53 +7,48 @@
 body {
   width: 100%;
   height: 100vh;
-  
-  
+
   align-items: center;
 }
-header{
-  
+header {
   width: 100%;
   height: 200px;
   display: flex;
   display: flex;
-  justify-content:left;
+  justify-content: left;
   align-items: center;
   padding: 10px;
   position: relative;
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-
 }
 nav {
-  
   position: absolute;
-  right: 10px; 
+  right: 10px;
   bottom: 10px;
   display: flex;
-  gap: 15px; 
+  gap: 15px;
 }
 nav a {
   text-decoration: none;
   font-family: "Akaya Kanadaka", system-ui;
 }
-.titulo{
+.titulo {
   font-size: 50px;
   font-family: "Concert One", sans-serif;
   font-weight: 400;
-  
 }
 .logo {
   width: 200px;
 }
 .container {
-  padding:40px;
+  padding: 40px;
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
 }
 
 .articulo {
-  width: 150px; 
+  width: 150px;
   aspect-ratio: 1/1;
   position: relative;
   overflow: hidden;
@@ -71,28 +66,28 @@ nav a {
 .articulo .nombre {
   z-index: 1;
   color: white;
-  font-size: 1em; 
+  font-size: 1em;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5); 
-  padding: 5px; 
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
   text-align: center;
-  position: absolute; 
-  top: 0; 
+  position: absolute;
+  top: 0;
 }
 
 .articulo .precio {
   z-index: 1;
   color: white;
-  font-size: 1em; 
+  font-size: 1em;
   font-weight: bold;
-  width: 100px; 
-  height: 75px; 
+  width: 100px;
+  height: 75px;
   background-color: rgba(255, 0, 0, 0.7);
-  padding: 5px; 
+  padding: 5px;
   text-align: center;
   position: absolute;
-  bottom: -35px; 
-  right: -45px; 
+  bottom: -35px;
+  right: -45px;
   transform: rotate(-45deg);
 }
 
@@ -101,8 +96,8 @@ nav a {
 }
 
 .tarjeta {
-  width: 150px; 
-  height: 250px; 
+  width: 150px;
+  height: 250px;
   border-radius: 10px;
   transition: transform 0.3s ease;
   overflow: hidden;
@@ -110,33 +105,46 @@ nav a {
 }
 
 .descrip {
-  padding: 15px; 
-  font-size: 0.8em; 
+  padding: 15px;
+  font-size: 0.8em;
 }
 
 .tarjeta:hover {
-  transform: scale(1.5); 
+  transform: scale(1.5);
   cursor: pointer;
   z-index: 10;
 }
 .overlay {
-  display: none; 
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8); 
+  background-color: rgba(0, 0, 0, 0.8);
   justify-content: center;
   align-items: center;
-  z-index: 100; 
+  z-index: 100;
 }
 
 .imagen-modal {
-  max-width: 300%; 
-  max-height: 300%; 
+  max-width: 300%;
+  max-height: 300%;
 }
-footer{
+footer {
   text-align: center;
   padding: 30px;
+}
+@media (max-width: 768px) {
+  .container {
+    justify-content: space-around;
+  }
+
+  .tarjeta {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  nav {
+    display: none;
+  }
 }
